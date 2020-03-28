@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DAEDAC9242F5968005FE40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDAC8242F5968005FE40B /* AppDelegate.swift */; };
+		4DAEDACB242F5968005FE40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDACA242F5968005FE40B /* ViewController.swift */; };
+		4DAEDACD242F596E005FE40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEDACC242F596E005FE40B /* Assets.xcassets */; };
+		4DAEDAD0242F596E005FE40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEDACE242F596E005FE40B /* Main.storyboard */; };
+		4DAEDADC242F596F005FE40B /* Falagron_Admin_PanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDADB242F596F005FE40B /* Falagron_Admin_PanelTests.swift */; };
+		4DAEDAE7242F596F005FE40B /* Falagron_Admin_PanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDAE6242F596F005FE40B /* Falagron_Admin_PanelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DAEDAD8242F596F005FE40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAEDABD242F5968005FE40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAEDAC4242F5968005FE40B;
+			remoteInfo = "Falagron Admin Panel";
+		};
+		4DAEDAE3242F596F005FE40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAEDABD242F5968005FE40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAEDAC4242F5968005FE40B;
+			remoteInfo = "Falagron Admin Panel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DAEDAC5242F5968005FE40B /* Falagron Admin Panel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falagron Admin Panel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEDAC8242F5968005FE40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DAEDACA242F5968005FE40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DAEDACC242F596E005FE40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DAEDACF242F596E005FE40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DAEDAD1242F596E005FE40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAEDAD2242F596E005FE40B /* Falagron_Admin_Panel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Falagron_Admin_Panel.entitlements; sourceTree = "<group>"; };
+		4DAEDAD7242F596F005FE40B /* Falagron Admin PanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falagron Admin PanelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEDADB242F596F005FE40B /* Falagron_Admin_PanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falagron_Admin_PanelTests.swift; sourceTree = "<group>"; };
+		4DAEDADD242F596F005FE40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAEDAE2242F596F005FE40B /* Falagron Admin PanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falagron Admin PanelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEDAE6242F596F005FE40B /* Falagron_Admin_PanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falagron_Admin_PanelUITests.swift; sourceTree = "<group>"; };
+		4DAEDAE8242F596F005FE40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DAEDAC2242F5968005FE40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEDAD4242F596F005FE40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEDADF242F596F005FE40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DAEDABC242F5968005FE40B = {
+			isa = PBXGroup;
+			children = (
+				4DAEDAC7242F5968005FE40B /* Falagron Admin Panel */,
+				4DAEDADA242F596F005FE40B /* Falagron Admin PanelTests */,
+				4DAEDAE5242F596F005FE40B /* Falagron Admin PanelUITests */,
+				4DAEDAC6242F5968005FE40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAEDAC6242F5968005FE40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEDAC5242F5968005FE40B /* Falagron Admin Panel.app */,
+				4DAEDAD7242F596F005FE40B /* Falagron Admin PanelTests.xctest */,
+				4DAEDAE2242F596F005FE40B /* Falagron Admin PanelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DAEDAC7242F5968005FE40B /* Falagron Admin Panel */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEDAC8242F5968005FE40B /* AppDelegate.swift */,
+				4DAEDACA242F5968005FE40B /* ViewController.swift */,
+				4DAEDACC242F596E005FE40B /* Assets.xcassets */,
+				4DAEDACE242F596E005FE40B /* Main.storyboard */,
+				4DAEDAD1242F596E005FE40B /* Info.plist */,
+				4DAEDAD2242F596E005FE40B /* Falagron_Admin_Panel.entitlements */,
+			);
+			path = "Falagron Admin Panel";
+			sourceTree = "<group>";
+		};
+		4DAEDADA242F596F005FE40B /* Falagron Admin PanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEDADB242F596F005FE40B /* Falagron_Admin_PanelTests.swift */,
+				4DAEDADD242F596F005FE40B /* Info.plist */,
+			);
+			path = "Falagron Admin PanelTests";
+			sourceTree = "<group>";
+		};
+		4DAEDAE5242F596F005FE40B /* Falagron Admin PanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEDAE6242F596F005FE40B /* Falagron_Admin_PanelUITests.swift */,
+				4DAEDAE8242F596F005FE40B /* Info.plist */,
+			);
+			path = "Falagron Admin PanelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DAEDAC4242F5968005FE40B /* Falagron Admin Panel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEDAEB242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin Panel" */;
+			buildPhases = (
+				4DAEDAC1242F5968005FE40B /* Sources */,
+				4DAEDAC2242F5968005FE40B /* Frameworks */,
+				4DAEDAC3242F5968005FE40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Falagron Admin Panel";
+			productName = "Falagron Admin Panel";
+			productReference = 4DAEDAC5242F5968005FE40B /* Falagron Admin Panel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DAEDAD6242F596F005FE40B /* Falagron Admin PanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEDAEE242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin PanelTests" */;
+			buildPhases = (
+				4DAEDAD3242F596F005FE40B /* Sources */,
+				4DAEDAD4242F596F005FE40B /* Frameworks */,
+				4DAEDAD5242F596F005FE40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAEDAD9242F596F005FE40B /* PBXTargetDependency */,
+			);
+			name = "Falagron Admin PanelTests";
+			productName = "Falagron Admin PanelTests";
+			productReference = 4DAEDAD7242F596F005FE40B /* Falagron Admin PanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DAEDAE1242F596F005FE40B /* Falagron Admin PanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAEDAF1242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin PanelUITests" */;
+			buildPhases = (
+				4DAEDADE242F596F005FE40B /* Sources */,
+				4DAEDADF242F596F005FE40B /* Frameworks */,
+				4DAEDAE0242F596F005FE40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAEDAE4242F596F005FE40B /* PBXTargetDependency */,
+			);
+			name = "Falagron Admin PanelUITests";
+			productName = "Falagron Admin PanelUITests";
+			productReference = 4DAEDAE2242F596F005FE40B /* Falagron Admin PanelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DAEDABD242F5968005FE40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "namikkaya86@gmail.com";
+				TargetAttributes = {
+					4DAEDAC4242F5968005FE40B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4DAEDAD6242F596F005FE40B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4DAEDAC4242F5968005FE40B;
+					};
+					4DAEDAE1242F596F005FE40B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4DAEDAC4242F5968005FE40B;
+					};
+				};
+			};
+			buildConfigurationList = 4DAEDAC0242F5968005FE40B /* Build configuration list for PBXProject "Falagron Admin Panel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DAEDABC242F5968005FE40B;
+			productRefGroup = 4DAEDAC6242F5968005FE40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAEDAC4242F5968005FE40B /* Falagron Admin Panel */,
+				4DAEDAD6242F596F005FE40B /* Falagron Admin PanelTests */,
+				4DAEDAE1242F596F005FE40B /* Falagron Admin PanelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DAEDAC3242F5968005FE40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEDACD242F596E005FE40B /* Assets.xcassets in Resources */,
+				4DAEDAD0242F596E005FE40B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEDAD5242F596F005FE40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEDAE0242F596F005FE40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DAEDAC1242F5968005FE40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEDACB242F5968005FE40B /* ViewController.swift in Sources */,
+				4DAEDAC9242F5968005FE40B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEDAD3242F596F005FE40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEDADC242F596F005FE40B /* Falagron_Admin_PanelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAEDADE242F596F005FE40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAEDAE7242F596F005FE40B /* Falagron_Admin_PanelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DAEDAD9242F596F005FE40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAEDAC4242F5968005FE40B /* Falagron Admin Panel */;
+			targetProxy = 4DAEDAD8242F596F005FE40B /* PBXContainerItemProxy */;
+		};
+		4DAEDAE4242F596F005FE40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAEDAC4242F5968005FE40B /* Falagron Admin Panel */;
+			targetProxy = 4DAEDAE3242F596F005FE40B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DAEDACE242F596E005FE40B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DAEDACF242F596E005FE40B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DAEDAE9242F596F005FE40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DAEDAEA242F596F005FE40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4DAEDAEC242F596F005FE40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Falagron Admin Panel/Falagron_Admin_Panel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Falagron Admin Panel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-Panel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4DAEDAED242F596F005FE40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Falagron Admin Panel/Falagron_Admin_Panel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Falagron Admin Panel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-Panel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4DAEDAEF242F596F005FE40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Falagron Admin PanelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-PanelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falagron Admin Panel.app/Contents/MacOS/Falagron Admin Panel";
+			};
+			name = Debug;
+		};
+		4DAEDAF0242F596F005FE40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Falagron Admin PanelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-PanelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Falagron Admin Panel.app/Contents/MacOS/Falagron Admin Panel";
+			};
+			name = Release;
+		};
+		4DAEDAF2242F596F005FE40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Falagron Admin PanelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-PanelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Falagron Admin Panel";
+			};
+			name = Debug;
+		};
+		4DAEDAF3242F596F005FE40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Falagron Admin PanelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-PanelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Falagron Admin Panel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DAEDAC0242F5968005FE40B /* Build configuration list for PBXProject "Falagron Admin Panel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEDAE9242F596F005FE40B /* Debug */,
+				4DAEDAEA242F596F005FE40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEDAEB242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin Panel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEDAEC242F596F005FE40B /* Debug */,
+				4DAEDAED242F596F005FE40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEDAEE242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin PanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEDAEF242F596F005FE40B /* Debug */,
+				4DAEDAF0242F596F005FE40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAEDAF1242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin PanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAEDAF2242F596F005FE40B /* Debug */,
+				4DAEDAF3242F596F005FE40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DAEDABD242F5968005FE40B /* Project object */;
+}
