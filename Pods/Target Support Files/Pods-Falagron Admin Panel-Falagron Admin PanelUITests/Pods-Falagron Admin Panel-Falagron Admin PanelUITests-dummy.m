@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests
+@end

@@ -1,0 +1,6 @@
+framework module Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests {
+  umbrella header "Pods-Falagron Admin Panel-Falagron Admin PanelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
