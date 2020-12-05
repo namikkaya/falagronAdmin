@@ -3,16 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4042AAA582CF59A4585C8C1F /* Pods_Falagron_Admin_PanelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5B20CB354F120A59267151 /* Pods_Falagron_Admin_PanelTests.framework */; };
+		40662A10AA47FE2FA5C9EDB8 /* Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E3E57473346465C72F50E2 /* Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests.framework */; };
+		4D08B16D244204FA008EB9D9 /* FBSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08B16C244204FA008EB9D9 /* FBSManager.swift */; };
+		4D08B16F244217A3008EB9D9 /* parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08B16E244217A3008EB9D9 /* parameters.swift */; };
+		4D186207245DBE6500F013DB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D186206245DBE6500F013DB /* Models.swift */; };
+		4D186211245E159B00F013DB /* preloaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18620F245E159B00F013DB /* preloaderVC.swift */; };
+		4D186212245E159B00F013DB /* preloaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D186210245E159B00F013DB /* preloaderVC.xib */; };
+		4D388432247BE4F800507A96 /* previewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388430247BE4F800507A96 /* previewController.swift */; };
+		4D388436247BF29100507A96 /* replacingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D388435247BF29100507A96 /* replacingText.swift */; };
+		4DA02F25242F9D5F009B2EBF /* newFalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA02F24242F9D5F009B2EBF /* newFalViewController.swift */; };
 		4DAEDAC9242F5968005FE40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDAC8242F5968005FE40B /* AppDelegate.swift */; };
 		4DAEDACB242F5968005FE40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDACA242F5968005FE40B /* ViewController.swift */; };
 		4DAEDACD242F596E005FE40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEDACC242F596E005FE40B /* Assets.xcassets */; };
 		4DAEDAD0242F596E005FE40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEDACE242F596E005FE40B /* Main.storyboard */; };
 		4DAEDADC242F596F005FE40B /* Falagron_Admin_PanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDADB242F596F005FE40B /* Falagron_Admin_PanelTests.swift */; };
 		4DAEDAE7242F596F005FE40B /* Falagron_Admin_PanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDAE6242F596F005FE40B /* Falagron_Admin_PanelUITests.swift */; };
+		4DAEDAF5242F5D43005FE40B /* selectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDAF4242F5D43005FE40B /* selectViewController.swift */; };
+		4DAEDAF7242F743A005FE40B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEDAF6242F743A005FE40B /* GoogleService-Info.plist */; };
+		4DAEDAFE242F9BC6005FE40B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEDAFD242F9BC6005FE40B /* BaseViewController.swift */; };
+		4DE19500244CB9E40019E974 /* editViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE194FF244CB9E40019E974 /* editViewController.swift */; };
+		B07746EBCAD7A31E225B94BC /* Pods_Falagron_Admin_Panel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC0F38A84411E2E12B078F6 /* Pods_Falagron_Admin_Panel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC1A1904275E699153D5921 /* Pods-Falagron Admin Panel-Falagron Admin PanelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falagron Admin Panel-Falagron Admin PanelUITests.debug.xcconfig"; path = "Target Support Files/Pods-Falagron Admin Panel-Falagron Admin PanelUITests/Pods-Falagron Admin Panel-Falagron Admin PanelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39E3E57473346465C72F50E2 /* Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5B20CB354F120A59267151 /* Pods_Falagron_Admin_PanelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Falagron_Admin_PanelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CDF0544D14829F439930F7 /* Pods-Falagron Admin Panel-Falagron Admin PanelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falagron Admin Panel-Falagron Admin PanelUITests.release.xcconfig"; path = "Target Support Files/Pods-Falagron Admin Panel-Falagron Admin PanelUITests/Pods-Falagron Admin Panel-Falagron Admin PanelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A4A657D984915010025993B /* Pods-Falagron Admin Panel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falagron Admin Panel.debug.xcconfig"; path = "Target Support Files/Pods-Falagron Admin Panel/Pods-Falagron Admin Panel.debug.xcconfig"; sourceTree = "<group>"; };
+		4D08B16C244204FA008EB9D9 /* FBSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBSManager.swift; sourceTree = "<group>"; };
+		4D08B16E244217A3008EB9D9 /* parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parameters.swift; sourceTree = "<group>"; };
+		4D186206245DBE6500F013DB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4D18620F245E159B00F013DB /* preloaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preloaderVC.swift; sourceTree = "<group>"; };
+		4D186210245E159B00F013DB /* preloaderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = preloaderVC.xib; sourceTree = "<group>"; };
+		4D388430247BE4F800507A96 /* previewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previewController.swift; sourceTree = "<group>"; };
+		4D388435247BF29100507A96 /* replacingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replacingText.swift; sourceTree = "<group>"; };
+		4DA02F24242F9D5F009B2EBF /* newFalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newFalViewController.swift; sourceTree = "<group>"; };
 		4DAEDAC5242F5968005FE40B /* Falagron Admin Panel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falagron Admin Panel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEDAC8242F5968005FE40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DAEDACA242F5968005FE40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +74,14 @@
 		4DAEDAE2242F596F005FE40B /* Falagron Admin PanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falagron Admin PanelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAEDAE6242F596F005FE40B /* Falagron_Admin_PanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falagron_Admin_PanelUITests.swift; sourceTree = "<group>"; };
 		4DAEDAE8242F596F005FE40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAEDAF4242F5D43005FE40B /* selectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectViewController.swift; sourceTree = "<group>"; };
+		4DAEDAF6242F743A005FE40B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DAEDAFD242F9BC6005FE40B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4DE194FF244CB9E40019E974 /* editViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editViewController.swift; sourceTree = "<group>"; };
+		86BDA1E6BD6B9F1DC63D7310 /* Pods-Falagron Admin PanelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falagron Admin PanelTests.debug.xcconfig"; path = "Target Support Files/Pods-Falagron Admin PanelTests/Pods-Falagron Admin PanelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC0F38A84411E2E12B078F6 /* Pods_Falagron_Admin_Panel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Falagron_Admin_Panel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAA69D2CE0B4D3C9351B33F8 /* Pods-Falagron Admin PanelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falagron Admin PanelTests.release.xcconfig"; path = "Target Support Files/Pods-Falagron Admin PanelTests/Pods-Falagron Admin PanelTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8772BEC1698B2AF86F44FCE /* Pods-Falagron Admin Panel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Falagron Admin Panel.release.xcconfig"; path = "Target Support Files/Pods-Falagron Admin Panel/Pods-Falagron Admin Panel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07746EBCAD7A31E225B94BC /* Pods_Falagron_Admin_Panel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4042AAA582CF59A4585C8C1F /* Pods_Falagron_Admin_PanelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +105,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40662A10AA47FE2FA5C9EDB8 /* Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D08B1672441D9D3008EB9D9 /* serviceManagers */ = {
+			isa = PBXGroup;
+			children = (
+				4D08B16C244204FA008EB9D9 /* FBSManager.swift */,
+				4D08B16E244217A3008EB9D9 /* parameters.swift */,
+			);
+			path = serviceManagers;
+			sourceTree = "<group>";
+		};
+		4D186205245DBE4C00F013DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D388434247BF26600507A96 /* processData */,
+				4D186206245DBE6500F013DB /* Models.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4D186208245E0AA400F013DB /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				4DAEDAFD242F9BC6005FE40B /* BaseViewController.swift */,
+				4D18620F245E159B00F013DB /* preloaderVC.swift */,
+				4D186210245E159B00F013DB /* preloaderVC.xib */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		4D388434247BF26600507A96 /* processData */ = {
+			isa = PBXGroup;
+			children = (
+				4D388435247BF29100507A96 /* replacingText.swift */,
+			);
+			path = processData;
+			sourceTree = "<group>";
+		};
 		4DAEDABC242F5968005FE40B = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +155,8 @@
 				4DAEDADA242F596F005FE40B /* Falagron Admin PanelTests */,
 				4DAEDAE5242F596F005FE40B /* Falagron Admin PanelUITests */,
 				4DAEDAC6242F5968005FE40B /* Products */,
+				72E07CCD5192C8A3E2BB86B6 /* Pods */,
+				B1399880F087D43DCAA391A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,11 +173,14 @@
 		4DAEDAC7242F5968005FE40B /* Falagron Admin Panel */ = {
 			isa = PBXGroup;
 			children = (
+				4D186205245DBE4C00F013DB /* Data */,
+				4D08B1672441D9D3008EB9D9 /* serviceManagers */,
+				4DAEDAF8242F9B5E005FE40B /* viewControllers */,
 				4DAEDAC8242F5968005FE40B /* AppDelegate.swift */,
-				4DAEDACA242F5968005FE40B /* ViewController.swift */,
 				4DAEDACC242F596E005FE40B /* Assets.xcassets */,
 				4DAEDACE242F596E005FE40B /* Main.storyboard */,
 				4DAEDAD1242F596E005FE40B /* Info.plist */,
+				4DAEDAF6242F743A005FE40B /* GoogleService-Info.plist */,
 				4DAEDAD2242F596E005FE40B /* Falagron_Admin_Panel.entitlements */,
 			);
 			path = "Falagron Admin Panel";
@@ -124,6 +204,42 @@
 			path = "Falagron Admin PanelUITests";
 			sourceTree = "<group>";
 		};
+		4DAEDAF8242F9B5E005FE40B /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D186208245E0AA400F013DB /* BaseController */,
+				4DAEDACA242F5968005FE40B /* ViewController.swift */,
+				4DAEDAF4242F5D43005FE40B /* selectViewController.swift */,
+				4DA02F24242F9D5F009B2EBF /* newFalViewController.swift */,
+				4DE194FF244CB9E40019E974 /* editViewController.swift */,
+				4D388430247BE4F800507A96 /* previewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		72E07CCD5192C8A3E2BB86B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A657D984915010025993B /* Pods-Falagron Admin Panel.debug.xcconfig */,
+				D8772BEC1698B2AF86F44FCE /* Pods-Falagron Admin Panel.release.xcconfig */,
+				2DC1A1904275E699153D5921 /* Pods-Falagron Admin Panel-Falagron Admin PanelUITests.debug.xcconfig */,
+				47CDF0544D14829F439930F7 /* Pods-Falagron Admin Panel-Falagron Admin PanelUITests.release.xcconfig */,
+				86BDA1E6BD6B9F1DC63D7310 /* Pods-Falagron Admin PanelTests.debug.xcconfig */,
+				CAA69D2CE0B4D3C9351B33F8 /* Pods-Falagron Admin PanelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1399880F087D43DCAA391A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC0F38A84411E2E12B078F6 /* Pods_Falagron_Admin_Panel.framework */,
+				39E3E57473346465C72F50E2 /* Pods_Falagron_Admin_Panel_Falagron_Admin_PanelUITests.framework */,
+				3F5B20CB354F120A59267151 /* Pods_Falagron_Admin_PanelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAEDAEB242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin Panel" */;
 			buildPhases = (
+				FF266801CD74D38BC1C1B880 /* [CP] Check Pods Manifest.lock */,
 				4DAEDAC1242F5968005FE40B /* Sources */,
 				4DAEDAC2242F5968005FE40B /* Frameworks */,
 				4DAEDAC3242F5968005FE40B /* Resources */,
+				B9A6374DB306808427594A41 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAEDAEE242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin PanelTests" */;
 			buildPhases = (
+				FD89F90F5DAA66F24CB6D1BE /* [CP] Check Pods Manifest.lock */,
 				4DAEDAD3242F596F005FE40B /* Sources */,
 				4DAEDAD4242F596F005FE40B /* Frameworks */,
 				4DAEDAD5242F596F005FE40B /* Resources */,
@@ -166,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DAEDAF1242F596F005FE40B /* Build configuration list for PBXNativeTarget "Falagron Admin PanelUITests" */;
 			buildPhases = (
+				A4C7B7E53A81660A4411D59A /* [CP] Check Pods Manifest.lock */,
 				4DAEDADE242F596F005FE40B /* Sources */,
 				4DAEDADF242F596F005FE40B /* Frameworks */,
 				4DAEDAE0242F596F005FE40B /* Resources */,
+				65087B1E3CAE82714BC5AA20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +351,8 @@
 			files = (
 				4DAEDACD242F596E005FE40B /* Assets.xcassets in Resources */,
 				4DAEDAD0242F596E005FE40B /* Main.storyboard in Resources */,
+				4DAEDAF7242F743A005FE40B /* GoogleService-Info.plist in Resources */,
+				4D186212245E159B00F013DB /* preloaderVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,13 +372,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65087B1E3CAE82714BC5AA20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Falagron Admin Panel-Falagron Admin PanelUITests/Pods-Falagron Admin Panel-Falagron Admin PanelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Falagron Admin Panel-Falagron Admin PanelUITests/Pods-Falagron Admin Panel-Falagron Admin PanelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Falagron Admin Panel-Falagron Admin PanelUITests/Pods-Falagron Admin Panel-Falagron Admin PanelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C7B7E53A81660A4411D59A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Falagron Admin Panel-Falagron Admin PanelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A6374DB306808427594A41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Falagron Admin Panel/Pods-Falagron Admin Panel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Falagron Admin Panel/Pods-Falagron Admin Panel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Falagron Admin Panel/Pods-Falagron Admin Panel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD89F90F5DAA66F24CB6D1BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Falagron Admin PanelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF266801CD74D38BC1C1B880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Falagron Admin Panel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DAEDAC1242F5968005FE40B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE19500244CB9E40019E974 /* editViewController.swift in Sources */,
 				4DAEDACB242F5968005FE40B /* ViewController.swift in Sources */,
+				4DA02F25242F9D5F009B2EBF /* newFalViewController.swift in Sources */,
+				4DAEDAFE242F9BC6005FE40B /* BaseViewController.swift in Sources */,
+				4D186207245DBE6500F013DB /* Models.swift in Sources */,
+				4D08B16D244204FA008EB9D9 /* FBSManager.swift in Sources */,
+				4DAEDAF5242F5D43005FE40B /* selectViewController.swift in Sources */,
+				4D186211245E159B00F013DB /* preloaderVC.swift in Sources */,
+				4D388436247BF29100507A96 /* replacingText.swift in Sources */,
+				4D08B16F244217A3008EB9D9 /* parameters.swift in Sources */,
 				4DAEDAC9242F5968005FE40B /* AppDelegate.swift in Sources */,
+				4D388432247BE4F800507A96 /* previewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,9 +653,11 @@
 		};
 		4DAEDAEC242F596F005FE40B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4A657D984915010025993B /* Pods-Falagron Admin Panel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Falagron Admin Panel/Falagron_Admin_Panel.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Falagron Admin Panel/Info.plist";
@@ -427,7 +665,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-Panel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.falagron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -435,9 +673,11 @@
 		};
 		4DAEDAED242F596F005FE40B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8772BEC1698B2AF86F44FCE /* Pods-Falagron Admin Panel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Falagron Admin Panel/Falagron_Admin_Panel.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Falagron Admin Panel/Info.plist";
@@ -445,7 +685,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kaya.Falagron-Admin-Panel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaya.falagron;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -453,6 +693,7 @@
 		};
 		4DAEDAEF242F596F005FE40B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BDA1E6BD6B9F1DC63D7310 /* Pods-Falagron Admin PanelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,6 +715,7 @@
 		};
 		4DAEDAF0242F596F005FE40B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAA69D2CE0B4D3C9351B33F8 /* Pods-Falagron Admin PanelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +737,7 @@
 		};
 		4DAEDAF2242F596F005FE40B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC1A1904275E699153D5921 /* Pods-Falagron Admin Panel-Falagron Admin PanelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +757,7 @@
 		};
 		4DAEDAF3242F596F005FE40B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CDF0544D14829F439930F7 /* Pods-Falagron Admin Panel-Falagron Admin PanelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
