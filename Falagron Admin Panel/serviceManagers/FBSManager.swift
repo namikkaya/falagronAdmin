@@ -92,6 +92,7 @@ class FBSManager: NSObject {
                           olumlu:Bool? = false,
                           olumsuz:Bool? = false,
                           purchase:Bool? = false,
+                          purchaseLove:Bool? = false,
                           falString:String? = ""){
         
         let _iliskiDurumu = [iliskiDurumu_Evli:evli,
@@ -115,6 +116,8 @@ class FBSManager: NSObject {
         
         let _purchase = [purchaseStatusString:purchase]
         
+        let _purchaseLove = [purchaseLoveStatusString:purchaseLove]
+        
         let _randomString = String.random(length: 16)
         
         let data = [falText: falString ?? "",
@@ -123,6 +126,7 @@ class FBSManager: NSObject {
                     kariyer: _kariyer,
                     yargi: _yargi,
                     purchaseString : _purchase,
+                    purchaseLoveString : _purchaseLove,
                     "id": _randomString
                     ] as [String : Any]
         
@@ -166,6 +170,7 @@ class FBSManager: NSObject {
                        olumlu:Bool? = false,
                        olumsuz:Bool? = false,
                        purchase:Bool? = false,
+                       purchaseLove:Bool? = false,
                        falString:String? = ""){
         
         let _iliskiDurumu = [iliskiDurumu_Evli:evli,
@@ -187,6 +192,8 @@ class FBSManager: NSObject {
         let _yargi = [yargi_Olumlu:olumlu,
                      yargi_Olumsuz:olumsuz]
         
+        let _purchaseLove = [purchaseLoveStatusString:purchaseLove]
+        
         let _purchase = [purchaseStatusString:purchase]
         
         let data = [falText: falString ?? "",
@@ -195,6 +202,7 @@ class FBSManager: NSObject {
                     kariyer: _kariyer,
                     yargi: _yargi,
                     purchaseString : _purchase,
+                    purchaseLoveString : _purchaseLove,
                     ] as [String : Any]
         
         guard let id = falId else {
@@ -259,7 +267,8 @@ class FBSManager: NSObject {
                          calismiyor:Bool? = false,
                          olumlu:Bool? = false,
                          olumsuz:Bool? = false,
-                         purchase:Bool? = false){
+                         purchase:Bool? = false,
+                         purchaseLove:Bool? = false){
         let refQuery = db.collection(fallar)
             .whereField("\( paragrafTipi).\(paragrafTipi_Giris)", isEqualTo: giris!)
             .whereField("\(paragrafTipi).\(paragrafTipi_Gelisme)", isEqualTo: gelisme!)
@@ -277,6 +286,7 @@ class FBSManager: NSObject {
             .whereField("\(yargi).\(yargi_Olumlu)", isEqualTo: olumlu!)
             .whereField("\(yargi).\(yargi_Olumsuz)", isEqualTo: olumsuz!)
             .whereField("\(purchaseString).\(purchaseStatusString)", isEqualTo: purchase!)
+            .whereField("\(purchaseLoveString).\(purchaseLoveStatusString)", isEqualTo: purchaseLove!)
         refQuery.getDocuments { (snapshot, error) in
             self.delegate.invoke { (_delegate) in
                 _delegate.FBSManagerUpdateData(FBSMessage: .fetchFilterFal(snapshot, error))
@@ -315,7 +325,8 @@ class FBSManager: NSObject {
                     }
                 }
                 if searchArray.count > 0 {
-                    let refQuery = self.db.collection(fallar).whereField("id", in: searchArray)
+                    let filterSearch = Array(searchArray[0..<(searchArray.count > 5 ? 5 : searchArray.count)])
+                    let refQuery = self.db.collection(fallar).whereField("id", in: filterSearch)
                     refQuery.getDocuments { (snapShot, error) in
                         self.delegate.invoke { (_delegate) in
                             _delegate.FBSManagerUpdateData(FBSMessage: .searchKeyword(snapShot, error))

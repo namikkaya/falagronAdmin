@@ -893,15 +893,15 @@
                             <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDU-cK-Tx6">
                                 <rect key="frame" x="20" y="20" width="887" height="606"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Fjs-4b-CBZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="872" height="606"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="887" height="606"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="TPm-th-U0U">
-                                            <rect key="frame" x="0.0" y="0.0" width="872" height="606"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="887" height="606"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="872" height="606"/>
+                                            <size key="minSize" width="887" height="606"/>
                                             <size key="maxSize" width="887" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
@@ -912,7 +912,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="2on-Yh-72d">
-                                    <rect key="frame" x="872" y="0.0" width="15" height="606"/>
+                                    <rect key="frame" x="871" y="0.0" width="16" height="606"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
@@ -1126,7 +1126,7 @@
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CZh-QW-VBB">
-                                <rect key="frame" x="925" y="161" width="343" height="16"/>
+                                <rect key="frame" x="925" y="161" width="65" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Ücretli Fal" id="DFj-bn-S9w">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -1136,6 +1136,21 @@
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xQx-bL-9UX">
                                 <rect key="frame" x="925" y="129" width="83" height="18"/>
                                 <buttonCell key="cell" type="check" title="Ücretli Fal" bezelStyle="regularSquare" imagePosition="left" inset="2" id="OH0-im-T2v">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R8R-Kp-TEh">
+                                <rect key="frame" x="1053" y="161" width="201" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Sadece Ücretli ve Aşk Kategorisi" id="g5y-kY-gh8">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Q61-HY-Jvg">
+                                <rect key="frame" x="1049" y="127" width="91" height="18"/>
+                                <buttonCell key="cell" type="check" title="Ücretli AŞK" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Gva-0Q-na4">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -1161,11 +1176,12 @@
                             <constraint firstItem="vDU-cK-Tx6" firstAttribute="top" secondItem="61y-Hd-eij" secondAttribute="bottom" constant="20" id="IGe-er-yCs"/>
                             <constraint firstAttribute="trailing" secondItem="7NA-TZ-CMf" secondAttribute="trailing" constant="20" id="IWU-WP-ceK"/>
                             <constraint firstItem="VL8-tR-cxT" firstAttribute="top" secondItem="7NA-TZ-CMf" secondAttribute="bottom" constant="16" id="J6n-BP-MR6"/>
-                            <constraint firstAttribute="trailing" secondItem="CZh-QW-VBB" secondAttribute="trailing" constant="20" id="JN7-NS-Kx7"/>
                             <constraint firstItem="Jir-87-fJQ" firstAttribute="top" secondItem="0SB-IB-k1k" secondAttribute="bottom" constant="166" id="LUI-FW-who"/>
+                            <constraint firstItem="Q61-HY-Jvg" firstAttribute="leading" secondItem="xQx-bL-9UX" secondAttribute="trailing" constant="45" id="O5I-Mq-bjh"/>
                             <constraint firstItem="12S-MA-TVL" firstAttribute="leading" secondItem="f2n-8Q-Y5m" secondAttribute="trailing" constant="20" id="O7c-2n-sAE"/>
                             <constraint firstItem="pGO-u1-pFr" firstAttribute="leading" secondItem="f7q-iG-S7M" secondAttribute="leading" constant="20" id="ON0-bU-0DT"/>
                             <constraint firstItem="69M-b1-YvZ" firstAttribute="leading" secondItem="jL0-p8-bbw" secondAttribute="trailing" constant="20" id="PCZ-bi-DyI"/>
+                            <constraint firstItem="Q61-HY-Jvg" firstAttribute="top" secondItem="R8R-Kp-TEh" secondAttribute="bottom" constant="18" id="PgN-To-Wcs"/>
                             <constraint firstItem="vvv-h0-aPd" firstAttribute="top" secondItem="f7q-iG-S7M" secondAttribute="top" constant="20" id="QA6-Od-AcD"/>
                             <constraint firstItem="SCZ-0E-BXe" firstAttribute="top" secondItem="f7q-iG-S7M" secondAttribute="top" constant="94" id="QSC-U0-QP1"/>
                             <constraint firstItem="ilD-tI-06r" firstAttribute="top" secondItem="jL0-p8-bbw" secondAttribute="bottom" constant="16" id="Rdk-Ga-3cH"/>
@@ -1175,6 +1191,7 @@
                             <constraint firstItem="tHD-IS-Gyk" firstAttribute="centerX" secondItem="Jir-87-fJQ" secondAttribute="centerX" id="XfM-Iy-4Li"/>
                             <constraint firstItem="p4d-df-voc" firstAttribute="top" secondItem="bVJ-VS-aT7" secondAttribute="bottom" constant="16" id="YAi-IQ-IVx"/>
                             <constraint firstItem="jL0-p8-bbw" firstAttribute="leading" secondItem="vDU-cK-Tx6" secondAttribute="trailing" constant="20" id="Zn2-UI-Hyx"/>
+                            <constraint firstItem="R8R-Kp-TEh" firstAttribute="top" secondItem="0SB-IB-k1k" secondAttribute="bottom" constant="30" id="beE-jH-YC0"/>
                             <constraint firstItem="p4d-df-voc" firstAttribute="leading" secondItem="vDU-cK-Tx6" secondAttribute="trailing" constant="20" id="cHH-bC-QnD"/>
                             <constraint firstItem="ilD-tI-06r" firstAttribute="leading" secondItem="vDU-cK-Tx6" secondAttribute="trailing" constant="20" id="dJW-cD-Usz"/>
                             <constraint firstItem="CBD-VD-4eu" firstAttribute="top" secondItem="12S-MA-TVL" secondAttribute="bottom" constant="16" id="e9A-de-uwH"/>
@@ -1205,6 +1222,7 @@
                             <constraint firstItem="q1w-xg-rNq" firstAttribute="top" secondItem="69M-b1-YvZ" secondAttribute="top" id="xd3-xB-SH2"/>
                             <constraint firstItem="bVJ-VS-aT7" firstAttribute="leading" secondItem="vDU-cK-Tx6" secondAttribute="trailing" constant="20" id="xfw-EV-c02"/>
                             <constraint firstItem="7NA-TZ-CMf" firstAttribute="top" secondItem="jAj-pu-A4h" secondAttribute="bottom" constant="46" id="xnu-hQ-Fyh"/>
+                            <constraint firstItem="R8R-Kp-TEh" firstAttribute="leading" secondItem="CZh-QW-VBB" secondAttribute="trailing" constant="67" id="yhc-2j-RWn"/>
                             <constraint firstItem="vVq-N5-Pfp" firstAttribute="top" secondItem="944-G6-kx9" secondAttribute="bottom" constant="48" id="yj5-SX-2Cs"/>
                             <constraint firstItem="2iu-60-J4R" firstAttribute="leading" secondItem="944-G6-kx9" secondAttribute="trailing" constant="20" id="zed-VE-g7v"/>
                         </constraints>
@@ -1224,6 +1242,7 @@
                         <outlet property="olumluButton" destination="VL8-tR-cxT" id="fdc-aU-HkU"/>
                         <outlet property="olumsuzButton" destination="0SB-IB-k1k" id="LRp-jd-e5S"/>
                         <outlet property="purchaseButton" destination="xQx-bL-9UX" id="Zup-Qq-dCi"/>
+                        <outlet property="purchaseLoveButton" destination="Q61-HY-Jvg" id="11W-dh-T2W"/>
                         <outlet property="sonucButton" destination="ct7-EA-wyY" id="z8f-Cj-BpF"/>
                         <outlet property="yeniAyrilmisButton" destination="12S-MA-TVL" id="dJS-wu-XSz"/>
                         <outlet property="yeniBosanmisButton" destination="CBD-VD-4eu" id="U4T-Dq-oUz"/>
@@ -1406,15 +1425,15 @@
                             <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxX-ZI-z5g">
                                 <rect key="frame" x="20" y="20" width="410" height="228"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="gjl-GP-hTO">
-                                    <rect key="frame" x="0.0" y="0.0" width="395" height="228"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="410" height="228"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="zpr-md-Nlp">
-                                            <rect key="frame" x="0.0" y="0.0" width="395" height="228"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="410" height="228"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="395" height="228"/>
+                                            <size key="minSize" width="410" height="228"/>
                                             <size key="maxSize" width="887" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
@@ -1425,7 +1444,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="1kG-Xx-1Yn">
-                                    <rect key="frame" x="395" y="0.0" width="15" height="228"/>
+                                    <rect key="frame" x="394" y="0.0" width="16" height="228"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>

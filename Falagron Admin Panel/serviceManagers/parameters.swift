@@ -56,6 +56,8 @@ let previewTextSameGenderWomenString:String = "kadın"
 let purchaseString:String = "purchase"
 let purchaseStatusString:String = "purchaseStatus"
 
+let purchaseLoveString:String = "purchaseLove"
+let purchaseLoveStatusString:String = "purchaseStatus"
 
 extension String {
     static func random(length:Int)->String{

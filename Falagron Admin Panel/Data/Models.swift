@@ -17,6 +17,7 @@ struct FalDataModel: Decodable {
     var paragrafTipi:ParagrafTipi?
     var yargi:Yargi?
     var purchase:Purchase?
+    var purchaseLove:PurchaseLove?
 }
 
 struct IliskiDurumu: Decodable {
@@ -47,6 +48,10 @@ struct Yargi: Decodable {
 }
 
 struct Purchase: Decodable {
+    var purchaseStatus:Bool?
+}
+
+struct PurchaseLove: Decodable {
     var purchaseStatus:Bool?
 }
 

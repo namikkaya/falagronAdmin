@@ -19,7 +19,7 @@ extension editViewControllerDelegate {
 }
 
 enum editViewDataType {
-    case selectFalData(FalDataModel)
+    case selectFalData(item: FalDataModel)
 }
 
 class editViewController: BaseViewController, WKUIDelegate, WKNavigationDelegate {
@@ -56,7 +56,7 @@ class editViewController: BaseViewController, WKUIDelegate, WKNavigationDelegate
         fbsManager = FBSManager.sharedInstance
         fbsManager?.delegate.add(delegate: self)
         
-        
+        /*
         self.webView.uiDelegate = self
         self.webView.navigationDelegate = self
         webView.frame = CGRect(x: 0, y: 0, width: 400, height: 270)
@@ -64,7 +64,7 @@ class editViewController: BaseViewController, WKUIDelegate, WKNavigationDelegate
          
         let url = URL(string: "https://www.google.com")
         let request = URLRequest(url: url!)
-        webView.load(request)
+        webView.load(request)*/
     }
     
     override func viewDidDisappear() {
@@ -190,7 +190,7 @@ extension editViewController:NSTableViewDelegate, NSTableViewDataSource {
     @objc func doubleClickOnResultRow() {
         if searchList.isEmpty { return }
         if searchList[safe:tableView.clickedRow] != nil {
-            sendData = editViewDataType.selectFalData(searchList[tableView.clickedRow])
+            sendData = editViewDataType.selectFalData(item: searchList[tableView.clickedRow])
             dismiss(self)
         }
         

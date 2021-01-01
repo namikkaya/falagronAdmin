@@ -38,6 +38,7 @@ class newFalViewController: BaseViewController {
     @IBOutlet weak var olumluButton: NSButton!
     @IBOutlet weak var olumsuzButton: NSButton!
     @IBOutlet weak var purchaseButton: NSButton!
+    @IBOutlet weak var purchaseLoveButton: NSButton!
     
     @IBOutlet weak var falInputText: NSScrollView!
     
@@ -131,6 +132,9 @@ class newFalViewController: BaseViewController {
         if let purchase = data.purchase?.purchaseStatus {
             purchaseButton.state = purchase.boolToState
         }
+        if let purchaseLove = data.purchaseLove?.purchaseStatus {
+            purchaseLoveButton.state = purchaseLove.boolToState  
+        }
     }
     
     @IBAction func backButtonAction(_ sender: Any) {
@@ -170,6 +174,7 @@ class newFalViewController: BaseViewController {
                              olumlu: olumluButton.state.rawValue.bool,
                              olumsuz: olumsuzButton.state.rawValue.bool,
                              purchase: purchaseButton.state.rawValue.bool,
+                             purchaseLove: purchaseLoveButton.state.rawValue.bool,
                              falString: myText)
     }
     
@@ -232,6 +237,7 @@ class newFalViewController: BaseViewController {
                                 olumlu: olumluButton.state.rawValue.bool,
                                 olumsuz: olumsuzButton.state.rawValue.bool,
                                 purchase: purchaseButton.state.rawValue.bool,
+                                purchaseLove: purchaseLoveButton.state.rawValue.bool,
                                 falString: myText)
     }
     
